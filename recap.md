@@ -1,0 +1,11 @@
+- ouvrir github
+- cliquer sur NEW
+- creer un repo qui s'apelle votreUsename.github.io
+- initialiser un repo git en local : 
+  - `git init`
+  - `git add .`
+  - `git commit -m "first commit"`
+- brancher ce repo git local sur le distant :
+  - `git remote add origin git@github.com:SoleneOclock/SoleneOclock.github.io.git`
+- pousser la branche master en copiant collant la commande qui s'affiche si on fait juste `git push`
+  - `git push --set-upstream origin master`
